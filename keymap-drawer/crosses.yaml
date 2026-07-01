@@ -130,8 +130,8 @@ layers:
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   Mouse:
-  - {t: '$$mdi:plus-minus-variant$$', h: DPI Cycle}
-  - {t: '$$mdi:toggle-switch$$', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,7 +141,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:plus-minus-variant$$', h: DPI Cycle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:mouse-right-click$$', h: right}

@@ -22,9 +22,9 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-                &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-                &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-                &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
+                &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp DEL
+                &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &PAGE_UP
+                &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &PAGE_DOWN
                                             &lt 3 LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
 
             >;
@@ -43,9 +43,9 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-                &trans  &trans  &trans     &trans     &trans     &trans      &studio_unlock  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans      &kp F1          &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
-                &trans  &trans  &trans     &trans     &trans     &trans      &kp F7          &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
+                &trans  &LG(Q)    &LG(W)     &LG(E)     &kp LG(R)  &kp LG(T)   &studio_unlock  &trans  &trans  &trans  &trans  &trans
+                &trans  &LG(A)    &mkp RCLK  &mkp MCLK  &mkp LCLK  &LG(G)      &kp F1          &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
+                &trans  &kp LG(Z) &kp LG(X)  &kp LG(C)  &kp LG(V)  &LG(B)      &kp F7          &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
                                                       &trans     &trans     &trans      &trans          &trans  &trans
             h>;
         };

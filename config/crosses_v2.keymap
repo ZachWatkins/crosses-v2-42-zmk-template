@@ -47,7 +47,7 @@
                 &trans  &kp LG(A)    &mkp RCLK  &mkp MCLK  &mkp LCLK  &kp LG(G)      &kp F1          &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
                 &trans  &kp LG(Z) &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)      &kp F7          &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
                                                       &trans     &trans     &trans      &trans          &trans  &trans
-            h>;
+            >;
         };
     };
 };
